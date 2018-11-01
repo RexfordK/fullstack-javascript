@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-javascript",
+  "version": "1.0.0",
+  "description": "Learning full stack development with Javascript, Node, React, and MongoDB",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RexfordK/fullstack-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RexfordK/fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/RexfordK/fullstack-javascript#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
